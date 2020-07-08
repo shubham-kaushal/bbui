@@ -12,7 +12,8 @@
     small = false,
     medium = false,
     wide = false,
-    large = false;
+    large = false,
+    id;
 </script>
 
 <style>
@@ -158,6 +159,7 @@
   class:wide
   class:large
   {disabled}
+  {id}
   on:click|preventDefault>
   <slot />
 </button>
